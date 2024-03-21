@@ -78,7 +78,7 @@ def main():
             #    ans = json.load(f)
             #data = jacinle.load(json_filename)
             
-            text = f'<b>Utterance:</b> {utterance}'
+            text = f'<b>Utterance:</b> {utterance}'.replace("novel ", "")
 
             referent1 = images[0]
             random.shuffle(images)

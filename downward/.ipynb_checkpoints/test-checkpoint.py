@@ -60,7 +60,7 @@ def main():
             print(data.keys())
             image = f'./SoMs/{index}.png'
             
-            utterance = data['utterance']
+            utterance = data['utterance'].replace("novel ", "")
             referent_obj_id = data['referent']
             
             #for item in data:
