@@ -70,7 +70,7 @@ def main():
                     image_filename = item['image_filename']
                     images.append(os.path.join("./SoMs", image_filename))
                 if "utterance" in item:
-                    utterance = item["utterance"]
+                    utterance = item["utterance"].replace("novel ", "")
                     impli_type = item["type"]
                     
                     #referent_obj_id = data['referent'][0]
@@ -78,7 +78,7 @@ def main():
             #    ans = json.load(f)
             #data = jacinle.load(json_filename)
             
-            text = f'<b>Utterance:</b> {utterance}'.replace("novel ", "")
+            text = f'<b>Utterance:</b> {utterance}'
 
             referent1 = images[0]
             random.shuffle(images)
