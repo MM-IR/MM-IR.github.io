@@ -1,4 +1,4 @@
-{"referent": "579.jpg", "utterance": "Some pigeons have wings", "type": "contextual cancellation"}
-{"image": "579.jpg"}
-{"image": "580.jpg"}
-{"image": "581.jpg"}
+{"referent": ["579.jpg"], "utterance": "Some pigeons have wings", "type": "contextual cancellation"}
+{"image_filename": "579.jpg"}
+{"image_filename": "580.jpg"}
+{"image_filename": "581.jpg"}

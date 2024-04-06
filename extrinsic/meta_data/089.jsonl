@@ -1,4 +1,4 @@
-{"referent": "267.jpg", "utterance": "Some teddy bears are in chairs", "type": "direct implicature"}
-{"image": "267.jpg"}
-{"image": "268.jpg"}
-{"image": "269.jpg"}
+{"referent": ["267.jpg"], "utterance": "Some teddy bears are in chairs", "type": "direct implicature"}
+{"image_filename": "267.jpg"}
+{"image_filename": "268.jpg"}
+{"image_filename": "269.jpg"}

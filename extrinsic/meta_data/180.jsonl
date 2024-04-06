@@ -1,4 +1,4 @@
-{"referent": "540.jpg", "utterance": "Some windows are with curtains", "type": "contextual cancellation"}
-{"image": "540.jpg"}
-{"image": "541.jpg"}
-{"image": "542.jpg"}
+{"referent": ["540.jpg"], "utterance": "Some windows are with curtains", "type": "contextual cancellation"}
+{"image_filename": "540.jpg"}
+{"image_filename": "541.jpg"}
+{"image_filename": "542.jpg"}

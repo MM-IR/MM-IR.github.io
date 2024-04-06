@@ -1,4 +1,4 @@
-{"referent": "477.jpg", "utterance": "Some sailboats are on the water", "type": "contextual cancellation"}
-{"image": "477.jpg"}
-{"image": "478.jpg"}
-{"image": "479.jpg"}
+{"referent": ["477.jpg"], "utterance": "Some sailboats are on the water", "type": "contextual cancellation"}
+{"image_filename": "477.jpg"}
+{"image_filename": "478.jpg"}
+{"image_filename": "479.jpg"}

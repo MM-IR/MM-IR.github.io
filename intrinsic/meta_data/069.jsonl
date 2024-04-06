@@ -1,4 +1,4 @@
-{"referent": ["069.jpg"], "utterance": "Some trees are leafy", "type": "direct implicature"}
-{"image": "207.jpg"}
-{"image": "208.jpg"}
-{"image": "209.jpg"}
+{"referent": ["207.jpg"], "utterance": "Some trees are leafy", "type": "direct implicature"}
+{"image_filename": "207.jpg"}
+{"image_filename": "208.jpg"}
+{"image_filename": "209.jpg"}

@@ -1,4 +1,4 @@
-{"referent": "411.jpg", "utterance": "Some players are playing baseball", "type": "contextual cancellation"}
-{"image": "411.jpg"}
-{"image": "412.jpg"}
-{"image": "413.jpg"}
+{"referent": ["411.jpg"], "utterance": "Some players are playing baseball", "type": "contextual cancellation"}
+{"image_filename": "411.jpg"}
+{"image_filename": "412.jpg"}
+{"image_filename": "413.jpg"}

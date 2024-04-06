@@ -1,4 +1,4 @@
-{"referent": "387.jpg", "utterance": "Some jeans are on men", "type": "contextual cancellation"}
-{"image": "387.jpg"}
-{"image": "388.jpg"}
-{"image": "389.jpg"}
+{"referent": ["387.jpg"], "utterance": "Some jeans are on men", "type": "contextual cancellation"}
+{"image_filename": "387.jpg"}
+{"image_filename": "388.jpg"}
+{"image_filename": "389.jpg"}

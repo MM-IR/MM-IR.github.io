@@ -42,8 +42,10 @@ def main():
             #image1_filename = f'./images/CLEVR_00000{int(start_idx)}.png'
             #image2_filename = f'./SoMs/CLEVR_00000{int(start_idx)}.png'
             json_filename = f'./meta_data/{file_name}'
+            #if k == 100:
+            #    print(file_name)
             #index = int(file_name.split("_")[1])
-            print(file_name)
+            #print(file_name)
             #index = file_name.strip(".json").split("_")[-1]
             #if start_idx >= 10:
             #    #image1_filename = f'./images/CLEVR_0000{int(start_idx)}.png'
@@ -83,6 +85,9 @@ def main():
             referent1 = images[0]
             random.shuffle(images)
             referent1_id = images.index(referent1)
+            
+            if "lines are white" in utterance:
+                print(file_name)
             #referent2_id = images.index(referent2)
             #if referent1_id > referent2_id:
             #    referent1_id, referent2_id = referent2_id, referent1_id

@@ -1,4 +1,4 @@
-{"referent": ["155.jpg"], "utterance": "Some buildings are fire departments", "type": "contextual cancellation"}
-{"image": "465.jpg"}
-{"image": "466.jpg"}
-{"image": "467.jpg"}
+{"referent": ["465.jpg"], "utterance": "Some buildings are fire departments", "type": "contextual cancellation"}
+{"image_filename": "465.jpg"}
+{"image_filename": "466.jpg"}
+{"image_filename": "467.jpg"}

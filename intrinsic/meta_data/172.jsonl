@@ -1,4 +1,4 @@
-{"referent": ["172.jpg"], "utterance": "Some tables are brown", "type": "contextual cancellation"}
-{"image": "516.jpg"}
-{"image": "517.jpg"}
-{"image": "518.jpg"}
+{"referent": ["516.jpg"], "utterance": "Some tables are brown", "type": "contextual cancellation"}
+{"image_filename": "516.jpg"}
+{"image_filename": "517.jpg"}
+{"image_filename": "518.jpg"}

@@ -1,4 +1,4 @@
-{"referent": "474.jpg", "utterance": "Some suitcases have handles", "type": "contextual cancellation"}
-{"image": "474.jpg"}
-{"image": "475.jpg"}
-{"image": "476.jpg"}
+{"referent": ["474.jpg"], "utterance": "Some suitcases have handles", "type": "contextual cancellation"}
+{"image_filename": "474.jpg"}
+{"image_filename": "475.jpg"}
+{"image_filename": "476.jpg"}

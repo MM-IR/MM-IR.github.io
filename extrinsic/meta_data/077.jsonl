@@ -1,4 +1,4 @@
-{"referent": "231.jpg", "utterance": "Some policemen are on top of horses", "type": "direct implicature"}
-{"image": "231.jpg"}
-{"image": "232.jpg"}
-{"image": "233.jpg"}
+{"referent": ["231.jpg"], "utterance": "Some policemen are on top of horses", "type": "direct implicature"}
+{"image_filename": "231.jpg"}
+{"image_filename": "232.jpg"}
+{"image_filename": "233.jpg"}

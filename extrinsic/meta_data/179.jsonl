@@ -1,4 +1,4 @@
-{"referent": "537.jpg", "utterance": "Some swords have triangles", "type": "contextual cancellation"}
-{"image": "537.jpg"}
-{"image": "538.jpg"}
-{"image": "539.jpg"}
+{"referent": ["537.jpg"], "utterance": "Some swords have triangles", "type": "contextual cancellation"}
+{"image_filename": "537.jpg"}
+{"image_filename": "538.jpg"}
+{"image_filename": "539.jpg"}

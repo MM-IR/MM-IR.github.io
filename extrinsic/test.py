@@ -43,7 +43,7 @@ def main():
             #image2_filename = f'./SoMs/CLEVR_00000{int(start_idx)}.png'
             json_filename = f'./meta_data/{file_name}'
             #index = int(file_name.split("_")[1])
-            print(file_name)
+            
             #index = file_name.strip(".json").split("_")[-1]
             #if start_idx >= 10:
             #    #image1_filename = f'./images/CLEVR_0000{int(start_idx)}.png'
@@ -66,26 +66,32 @@ def main():
             
             images = []
             for item in data:
-                if "image" in item:
-                    image_filename = item['image']
+                if "image_filename" in item:
+                    image_filename = item['image_filename']
                     images.append(os.path.join("./images", image_filename))
                 if "utterance" in item:
                     utterance = item["utterance"].replace("novel ", "")
                     impli_type = item["type"]
+            #print(images)
                     
                     #referent_obj_id = data['referent'][0]
             #with open(json_filename, 'r') as f:
             #    ans = json.load(f)
             #data = jacinle.load(json_filename)
+            if utterance == "Some broccolis are in the pan":
+                print(file_name)
             
+            if utterance == "Some women are carrying purses":
+                print(file_name)
+                
             text = f'<b>Utterance:</b> {utterance}'
-            print(images)
+            #print(images)
             referent1 = images[0]
             random.shuffle(images)
             referent1_id = images.index(referent1)
             #referent2_id = images.index(referent2)
             #if referent1_id > referent2_id:
-            print(len(images))
+            #print(len(images))
             #    referent1_id, referent2_id = referent2_id, referent1_id
             
             answer = f'<b>Referent:</b> Image {referent1_id+1}<br><b>Type: </b> {impli_type}'
