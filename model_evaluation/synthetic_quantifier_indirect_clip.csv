@@ -1,0 +1,41 @@
+,json_name,pred_answer,referent,utterance,pred_correct_flag,pred_probs,implicature_type
+0,CLEVR_000000.jsonl,CLEVR_000000.png,CLEVR_000000.png,Not all cylinders are rubber.,1,"[0.4913471043109894, 0.40073907375335693, 0.10791385173797607]",indirect implicature
+1,CLEVR_000001.jsonl,CLEVR_000003.png,CLEVR_000003.png,Not all small rubber spheres are purple.,1,"[0.8593132495880127, 0.09776947647333145, 0.042917296290397644]",indirect implicature
+2,CLEVR_000002.jsonl,CLEVR_000006.png,CLEVR_000006.png,Not all small yellow cubes are metal.,1,"[0.5124465227127075, 0.3013264536857605, 0.18622702360153198]",indirect implicature
+3,CLEVR_000003.jsonl,CLEVR_000010.png,CLEVR_000009.png,Not all objects are cube.,0,"[0.3781677186489105, 0.5323537588119507, 0.089478500187397]",indirect implicature
+4,CLEVR_000004.jsonl,CLEVR_000014.png,CLEVR_000012.png,Not all small metal spheres are blue.,0,"[0.16403068602085114, 0.12180615216493607, 0.7141631245613098]",indirect implicature
+5,CLEVR_000005.jsonl,CLEVR_000015.png,CLEVR_000015.png,Not all metal objects are large.,1,"[0.7729646563529968, 0.14912551641464233, 0.07790979743003845]",indirect implicature
+6,CLEVR_000006.jsonl,CLEVR_000020.png,CLEVR_000018.png,Not all green objects are metal.,0,"[0.20492005348205566, 0.3670618534088135, 0.42801806330680847]",indirect implicature
+7,CLEVR_000007.jsonl,CLEVR_000021.png,CLEVR_000021.png,Not all objects are cube.,1,"[0.5432925224304199, 0.36578044295310974, 0.09092707186937332]",indirect implicature
+8,CLEVR_000008.jsonl,CLEVR_000025.png,CLEVR_000024.png,Not all large rubber objects are red.,0,"[0.26775220036506653, 0.7018885016441345, 0.03035927191376686]",indirect implicature
+9,CLEVR_000009.jsonl,CLEVR_000028.png,CLEVR_000027.png,Not all small objects are cylinder.,0,"[0.2014484703540802, 0.5571556687355042, 0.24139583110809326]",indirect implicature
+10,CLEVR_000010.jsonl,CLEVR_000031.png,CLEVR_000030.png,Not all purple cubes are large.,0,"[0.048050250858068466, 0.9474576115608215, 0.004492093343287706]",indirect implicature
+11,CLEVR_000011.jsonl,CLEVR_000034.png,CLEVR_000033.png,Not all objects are small.,0,"[0.3283856213092804, 0.43193310499191284, 0.23968128859996796]",indirect implicature
+12,CLEVR_000012.jsonl,CLEVR_000037.png,CLEVR_000036.png,Not all objects are cube.,0,"[0.420928418636322, 0.5607197284698486, 0.018351849168539047]",indirect implicature
+13,CLEVR_000013.jsonl,CLEVR_000039.png,CLEVR_000039.png,Not all small rubber cubes are green.,1,"[0.9103741645812988, 0.038578908890485764, 0.051046982407569885]",indirect implicature
+14,CLEVR_000014.jsonl,CLEVR_000043.png,CLEVR_000042.png,Not all objects are cube.,0,"[0.17574453353881836, 0.6803129315376282, 0.14394253492355347]",indirect implicature
+15,CLEVR_000015.jsonl,CLEVR_000045.png,CLEVR_000045.png,Not all objects are rubber.,1,"[0.47412124276161194, 0.1316162794828415, 0.394262433052063]",indirect implicature
+16,CLEVR_000016.jsonl,CLEVR_000048.png,CLEVR_000048.png,Not all purple metal objects are small.,1,"[0.9358210563659668, 0.026526397094130516, 0.037652600556612015]",indirect implicature
+17,CLEVR_000017.jsonl,CLEVR_000052.png,CLEVR_000051.png,Not all metal cubes are cyan.,0,"[0.12613533437252045, 0.8733444809913635, 0.0005202124593779445]",indirect implicature
+18,CLEVR_000018.jsonl,CLEVR_000054.png,CLEVR_000054.png,Not all red objects are metal.,1,"[0.41617169976234436, 0.19365116953849792, 0.3901771605014801]",indirect implicature
+19,CLEVR_000019.jsonl,CLEVR_000058.png,CLEVR_000057.png,Not all purple metal objects are cube.,0,"[0.017806291580200195, 0.9807953238487244, 0.0013983563985675573]",indirect implicature
+20,CLEVR_000020.jsonl,CLEVR_000061.png,CLEVR_000060.png,Not all small blue objects are metal.,0,"[0.16272564232349396, 0.5630379319190979, 0.27423641085624695]",indirect contextual cancellation
+21,CLEVR_000021.jsonl,CLEVR_000063.png,CLEVR_000063.png,Not all rubber objects are sphere.,1,"[0.41256263852119446, 0.2665508985519409, 0.32088643312454224]",indirect contextual cancellation
+22,CLEVR_000022.jsonl,CLEVR_000068.png,CLEVR_000066.png,Not all brown rubber cylinders are large.,0,"[0.0015618569450452924, 0.06145700812339783, 0.9369810819625854]",indirect contextual cancellation
+23,CLEVR_000023.jsonl,CLEVR_000070.png,CLEVR_000069.png,Not all yellow rubber spheres are large.,0,"[0.3004646897315979, 0.5182660222053528, 0.1812693178653717]",indirect contextual cancellation
+24,CLEVR_000024.jsonl,CLEVR_000073.png,CLEVR_000072.png,Not all large spheres are rubber.,0,"[0.21696190536022186, 0.5459656715393066, 0.2370724380016327]",indirect contextual cancellation
+25,CLEVR_000025.jsonl,CLEVR_000077.png,CLEVR_000075.png,Not all cyan metal cubes are small.,0,"[0.07327523827552795, 0.15881234407424927, 0.7679124474525452]",indirect contextual cancellation
+26,CLEVR_000026.jsonl,CLEVR_000080.png,CLEVR_000078.png,Not all metal objects are small.,0,"[0.2757682204246521, 0.260907918214798, 0.4633238911628723]",indirect contextual cancellation
+27,CLEVR_000027.jsonl,CLEVR_000083.png,CLEVR_000081.png,Not all cylinders are metal.,0,"[0.08696947246789932, 0.2930266559123993, 0.6200038194656372]",indirect contextual cancellation
+28,CLEVR_000028.jsonl,CLEVR_000085.png,CLEVR_000084.png,Not all large gray objects are metal.,0,"[0.06998245418071747, 0.6113908886909485, 0.3186267018318176]",indirect contextual cancellation
+29,CLEVR_000029.jsonl,CLEVR_000089.png,CLEVR_000087.png,Not all spheres are metal.,0,"[0.0021186056546866894, 0.4792393445968628, 0.5186420679092407]",indirect contextual cancellation
+30,CLEVR_000030.jsonl,CLEVR_000091.png,CLEVR_000090.png,Not all rubber objects are cylinder.,0,"[0.11940845102071762, 0.8222487568855286, 0.05834285169839859]",indirect contextual cancellation
+31,CLEVR_000031.jsonl,CLEVR_000093.png,CLEVR_000093.png,Not all rubber spheres are large.,1,"[0.5198475122451782, 0.40763550996780396, 0.07251695543527603]",indirect contextual cancellation
+32,CLEVR_000032.jsonl,CLEVR_000097.png,CLEVR_000096.png,Not all small objects are red.,0,"[0.04557447135448456, 0.8151167035102844, 0.1393088549375534]",indirect contextual cancellation
+33,CLEVR_000033.jsonl,CLEVR_000101.png,CLEVR_000099.png,Not all yellow cubes are metal.,0,"[0.18319487571716309, 0.0496295765042305, 0.767175555229187]",indirect contextual cancellation
+34,CLEVR_000034.jsonl,CLEVR_000104.png,CLEVR_000102.png,Not all purple objects are cylinder.,0,"[0.0762387067079544, 0.06460873037576675, 0.8591524958610535]",indirect contextual cancellation
+35,CLEVR_000035.jsonl,CLEVR_000107.png,CLEVR_000105.png,Not all yellow rubber cylinders are small.,0,"[0.023243626579642296, 0.1122373640537262, 0.8645190596580505]",indirect contextual cancellation
+36,CLEVR_000036.jsonl,CLEVR_000109.png,CLEVR_000108.png,Not all rubber objects are red.,0,"[0.11038229614496231, 0.6492176055908203, 0.2404000610113144]",indirect contextual cancellation
+37,CLEVR_000037.jsonl,CLEVR_000113.png,CLEVR_000111.png,Not all blue metal objects are cube.,0,"[0.06511116027832031, 0.23033425211906433, 0.7045546174049377]",indirect contextual cancellation
+38,CLEVR_000038.jsonl,CLEVR_000115.png,CLEVR_000114.png,Not all metal spheres are large.,0,"[0.01085866428911686, 0.9134770035743713, 0.07566431909799576]",indirect contextual cancellation
+39,CLEVR_000039.jsonl,CLEVR_000119.png,CLEVR_000117.png,Not all small metal objects are green.,0,"[0.2316051572561264, 0.10458136349916458, 0.6638134717941284]",indirect contextual cancellation

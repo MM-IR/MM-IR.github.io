@@ -12,21 +12,21 @@ def parse_args():
         "--lang",
         type=str,
         default="quantifier",
-        choices = ["ad-hoc", "quantifier", "upward", "downward"],
+        choices = ["ad-hoc", "quantifier", "upward", "downward", "quantifier_indirect"],
         help="language type",
         )
     parser.add_argument(
         "--domain",
         type=str,
         default="natural",
-        choices = ["natural", "synthetic", "upward", "downward"],
+        choices = ["natural", "synthetic", "upward", "downward", "quantifier_indirect"],
         help="visual domain",
         )
     parser.add_argument(
         "--attribute",
         type=str,
         default="intrinsic",
-        choices = ["intrinsic", "extrinsic", "upward", "downward"],
+        choices = ["intrinsic", "extrinsic"],
         help="attribute type for quantifiers",
         )
     parser.add_argument(
@@ -140,8 +140,95 @@ def load_datasets(args: dict):
                 print(referents)
                 meta_data_paths.append(src_meta_data_path)
                 image_filenames.append(local_image_filenames)
-    
-    # 2: Embedded Implicature
+    # 2: Quantifier Indirect            
+    if args.lang == 'quantifier_indirect':
+        if args.domain == 'natural':
+            if args.attribute == 'intrinsic':
+                src_path = os.path.join(base_path, 'human_phrasecut_indirect_intrinsic')
+            elif args.attribute == 'extrinsic':
+                src_path = os.path.join(base_path, 'human_phrasecut_indirect_extrinsic')
+            src_meta_data_paths = os.path.join(src_path, "meta_data")
+            # goal: retrieve meta data
+            referents = []
+            image_filenames = []
+            utterances = []
+            implicature_types = []
+            meta_data_paths = []
+            # 1. per-file processing
+            for src_meta_data_path in os.listdir(src_meta_data_paths):
+                if "jsonl" not in src_meta_data_path:
+                    continue
+                meta_data = load_jsonl(os.path.join(src_meta_data_paths,
+                                                    src_meta_data_path))
+                # retrieving
+                local_image_filenames = []
+                local_referents = []
+
+                for item in meta_data:
+                    #
+
+                    if "referent" in item:
+                        for ref in item['referent']:
+                            local_referents.append(os.path.join(src_path, 
+                                         "images", ref))
+
+
+                        utterances.append(item['utterance'])
+                        implicature_types.append(item['type'])
+                    if "image_filename" in item:
+                        local_image_filenames.append(
+                            os.path.join(src_path, 
+                                       "images", item['image_filename'])
+                            )
+                referents.append(local_referents)
+                print(referents)
+                meta_data_paths.append(src_meta_data_path)
+                image_filenames.append(local_image_filenames)
+        
+        elif args.domain == 'synthetic':
+            if args.attribute == 'intrinsic':
+                src_path = os.path.join(base_path, 'human_clevr_quantifier_indirect_intrinsic')
+            elif args.attribute == 'extrinsic':
+                src_path = os.path.join(base_path, 'human_clevr_quantifier_indirect_extrinsic')
+            src_meta_data_paths = os.path.join(src_path, "meta_data")
+            # goal: retrieve meta data
+            referents = []
+            image_filenames = []
+            utterances = []
+            implicature_types = []
+            meta_data_paths = []
+            # 1. per-file processing
+            for src_meta_data_path in os.listdir(src_meta_data_paths):
+                if "jsonl" not in src_meta_data_path:
+                    continue
+                meta_data = load_jsonl(os.path.join(src_meta_data_paths,
+                                                    src_meta_data_path))
+                # retrieving
+                local_image_filenames = []
+                local_referents = []
+
+                for item in meta_data:
+                    #
+
+                    if "referent" in item:
+                        for ref in item['referent']:
+                            local_referents.append(os.path.join(src_path, 
+                                         "images", ref))
+
+
+                        utterances.append(item['utterance'])
+                        implicature_types.append(item['type'])
+                    if "image_filename" in item:
+                        local_image_filenames.append(
+                            os.path.join(src_path, 
+                                       "images", item['image_filename'])
+                            )
+                referents.append(local_referents)
+                print(referents)
+                meta_data_paths.append(src_meta_data_path)
+                image_filenames.append(local_image_filenames)
+                
+    # 3: Embedded Implicature
     elif args.lang == 'upward':
         if True: #args.domain == 'natural':
             

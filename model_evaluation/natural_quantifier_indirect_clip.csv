@@ -1,0 +1,41 @@
+,json_name,pred_answer,referent,utterance,pred_correct_flag,pred_probs,implicature_type
+0,000.jsonl,000.png,000.png,Not all people are working on computers,1,"[0.9482090473175049, 0.05157739669084549, 0.00021353285410441458]",indirect implicature
+1,001.jsonl,004.png,003.png,Not all ladies ride bikes,0,"[0.27191248536109924, 0.7280642986297607, 2.322102773177903e-05]",indirect implicature
+2,002.jsonl,007.png,006.png,Not all boys wear sweaters,0,"[0.015527145937085152, 0.9843711256980896, 0.00010167550499318168]",indirect implicature
+3,003.jsonl,010.png,009.png,Not all leaves are on ground,0,"[0.0006484738551080227, 0.9993489384651184, 2.5370320599904517e-06]",indirect implicature
+4,004.jsonl,013.png,012.png,Not all birds are on the hand,0,"[0.022561943158507347, 0.9770863652229309, 0.00035171062336303294]",indirect implicature
+5,005.jsonl,016.png,015.png,Not all people hold umbrella,0,"[0.010123872198164463, 0.9898760914802551, 4.972296352434569e-08]",indirect implicature
+6,006.jsonl,019.png,018.png,Not all snows are full of tracks,0,"[0.22572864592075348, 0.7631118893623352, 0.011159463785588741]",indirect implicature
+7,007.jsonl,022.png,021.png,Not all girls wear sweaters,0,"[0.0017540956614539027, 0.9950897097587585, 0.0031561923678964376]",indirect implicature
+8,008.jsonl,025.png,024.png,Not all boys hold skateboards,0,"[0.007920212112367153, 0.9920794367790222, 3.8472606433970213e-07]",indirect implicature
+9,009.jsonl,028.png,027.png,Not all people are on the motorcycle,0,"[0.014260660856962204, 0.9857358336448669, 3.476971187410527e-06]",indirect implicature
+10,010.jsonl,031.png,030.png,Not all apple are on the plates,0,"[0.0009994690772145987, 0.9988093376159668, 0.00019116229668725282]",indirect implicature
+11,011.jsonl,034.png,033.png,Not all zebras stand,0,"[0.015025116503238678, 0.9849719405174255, 2.932491725005093e-06]",indirect implicature
+12,012.jsonl,037.png,036.png,Not all boys wear jackets,0,"[0.035756565630435944, 0.9464858174324036, 0.0177575945854187]",indirect implicature
+13,013.jsonl,040.png,039.png,Not all guys are holding camera,0,"[2.7570509701035917e-05, 0.999954342842102, 1.805402644095011e-05]",indirect implicature
+14,014.jsonl,043.png,042.png,Not all birds stand on rock,0,"[0.00012907003110740334, 0.9998655319213867, 5.373447947931709e-06]",indirect implicature
+15,015.jsonl,046.png,045.png,Not all windows are on the buildings,0,"[0.02637823484838009, 0.972963273525238, 0.0006584682269021869]",indirect implicature
+16,016.jsonl,049.png,048.png,Not all trees has few leaves,0,"[7.366580393863842e-05, 0.9999210834503174, 5.201513431529747e-06]",indirect implicature
+17,017.jsonl,052.png,051.png,Not all people eat food,0,"[0.004094559699296951, 0.9942784309387207, 0.0016269489424303174]",indirect implicature
+18,018.jsonl,055.png,054.png,Not all girls eat watermelons,0,"[7.322295004996704e-06, 0.9999924898147583, 2.430695076327538e-07]",indirect implicature
+19,019.jsonl,057.png,057.png,Not all people wear hats,1,"[0.8124411702156067, 0.03968086093664169, 0.14787796139717102]",indirect implicature
+20,020.jsonl,062.png,060.png,Not all broccolis are in the pan,0,"[0.0028200801461935043, 1.886410805340688e-09, 0.9971799850463867]",contextual cancellation
+21,021.jsonl,063.png,063.png,Not all bowls contain fruits,1,"[0.8843107223510742, 0.1156063824892044, 8.284710929729044e-05]",contextual cancellation
+22,022.jsonl,066.png,066.png,Not all boats are on the water,1,"[0.9775128960609436, 0.002709068125113845, 0.019778022542595863]",contextual cancellation
+23,023.jsonl,069.png,069.png,Not all kites are in sky,1,"[0.999970555305481, 2.7853977371705696e-05, 1.5609496131219203e-06]",contextual cancellation
+24,024.jsonl,072.png,072.png,Not all girls are playing the tennis,1,"[0.9999865293502808, 1.2715946468233597e-05, 7.646240760550427e-07]",contextual cancellation
+25,025.jsonl,075.png,075.png,Not all cats are on the floor,1,"[0.9335246682167053, 0.06481929123401642, 0.0016560348449274898]",contextual cancellation
+26,026.jsonl,078.png,078.png,Not all boats are in water,1,"[0.8360198140144348, 0.16171257197856903, 0.0022675655782222748]",contextual cancellation
+27,027.jsonl,082.png,081.png,Not all people are sitting on trucks,0,"[0.01509153749793768, 0.7269436717033386, 0.2579647898674011]",contextual cancellation
+28,028.jsonl,084.png,084.png,Not all oranges are in the containers,1,"[0.9994506239891052, 0.0003700515953823924, 0.00017926227883435786]",contextual cancellation
+29,029.jsonl,087.png,087.png,Not all greens are in sandwich,1,"[0.4900569021701813, 0.26638853549957275, 0.24355454742908478]",contextual cancellation
+30,030.jsonl,090.png,090.png,Not all sailboats are on the water,1,"[0.9996465444564819, 0.0003208688285667449, 3.2585197914158925e-05]",contextual cancellation
+31,031.jsonl,093.png,093.png,Not all trees are in the park,1,"[0.8877871036529541, 0.0016866294899955392, 0.11052624881267548]",contextual cancellation
+32,032.jsonl,096.png,096.png,Not all cups are on the tables,1,"[0.9616174101829529, 0.02978447638452053, 0.008598051965236664]",contextual cancellation
+33,033.jsonl,099.png,099.png,Not all forks are on the table,1,"[0.7349813580513, 0.06751946359872818, 0.19749917089939117]",contextual cancellation
+34,034.jsonl,102.png,102.png,Not all babies are wearing clothes,1,"[0.9891493916511536, 0.007849239744246006, 0.0030014854855835438]",contextual cancellation
+35,035.jsonl,105.png,105.png,Not all waters are on the toilet seat,1,"[0.9992527365684509, 0.0005998627748340368, 0.00014740783080924302]",contextual cancellation
+36,036.jsonl,108.png,108.png,Not all donuts are inside of boxes,1,"[0.9999992847442627, 1.1896479357176304e-08, 7.475489383068634e-07]",contextual cancellation
+37,037.jsonl,111.png,111.png,Not all papers are under the sandwiches,1,"[0.9754178524017334, 0.012787042185664177, 0.011795107275247574]",contextual cancellation
+38,038.jsonl,115.png,114.png,Not all legs are from elephants,0,"[0.2325420379638672, 0.7639973163604736, 0.0034606424160301685]",contextual cancellation
+39,039.jsonl,117.png,117.png,Not all males are wearing ties,1,"[0.9995507597923279, 0.0002245939103886485, 0.0002245939103886485]",contextual cancellation
