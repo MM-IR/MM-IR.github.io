@@ -1,0 +1,41 @@
+,json_name,pred_answer,referent,utterance,pred_correct_flag,pred_probs,implicature_type
+0,000.jsonl,1.png,0.png,Some tires are on the vehicles,0,"[0.000750073988456279, 0.999215841293335, 3.4069693356286734e-05]",direct implicature
+1,001.jsonl,3.png,3.png,Some players hold gloves,1,"[0.9721304774284363, 0.027869047597050667, 4.6597435243711516e-07]",direct implicature
+2,002.jsonl,7.png,6.png,Some hands are from woman,0,"[0.0017343757208436728, 0.9952110648155212, 0.003054535249248147]",direct implicature
+3,003.jsonl,9.png,9.png,Some windows are along side of bus,1,"[0.8014053702354431, 0.1962183564901352, 0.00237634195946157]",direct implicature
+4,004.jsonl,13.png,12.png,Some people are wearing boots,0,"[4.6225616756601084e-07, 0.9999982118606567, 1.3737836752625299e-06]",direct implicature
+5,005.jsonl,16.png,15.png,Some people are with hair,0,"[0.027152592316269875, 0.9672557711601257, 0.005591622553765774]",direct implicature
+6,006.jsonl,19.png,18.png,Some people are in orange,0,"[0.37161412835121155, 0.603134036064148, 0.025251785293221474]",direct implicature
+7,007.jsonl,21.png,21.png,Some women are carrying purses,1,"[0.9685283303260803, 0.020062899217009544, 0.01140875555574894]",direct implicature
+8,008.jsonl,25.png,24.png,Some children are wearing orange pants,0,"[0.0004359755548648536, 0.9995482563972473, 1.5717236237833276e-05]",direct implicature
+9,009.jsonl,28.png,27.png,Some children are on horse,0,"[0.11234114319086075, 0.8876587748527527, 6.46924220859546e-08]",direct implicature
+10,010.jsonl,31.png,30.png,Some suitcases are on bed,0,"[0.022719036787748337, 0.9772669076919556, 1.406604587828042e-05]",direct implicature
+11,011.jsonl,34.png,33.png,Some people sit on the truck,0,"[0.0015256190672516823, 0.9984242916107178, 5.006134961149655e-05]",direct implicature
+12,012.jsonl,36.png,36.png,Some men touch screens,1,"[0.9940229058265686, 0.005583380348980427, 0.0003937244473490864]",direct implicature
+13,013.jsonl,40.png,39.png,Some furnitures has arms,0,"[0.4887632131576538, 0.4995500445365906, 0.011686730198562145]",direct implicature
+14,014.jsonl,43.png,42.png,Some people take bags,0,"[0.034658558666706085, 0.8656760454177856, 0.09966535866260529]",direct implicature
+15,015.jsonl,46.png,45.png,Some sheep wear pink,0,"[0.001452985918149352, 0.9985451698303223, 1.8493161633159616e-06]",direct implicature
+16,016.jsonl,49.png,48.png,Some people are looking at computers,0,"[0.3634556233882904, 0.6362671256065369, 0.00027728869463317096]",direct implicature
+17,017.jsonl,52.png,51.png,Some people are using umbrellas,0,"[0.1621815264225006, 0.8378143906593323, 4.1333946683153044e-06]",direct implicature
+18,018.jsonl,54.png,54.png,Some cats are not pictured on screen,1,"[0.8164502382278442, 0.18173114955425262, 0.0018185960361734033]",direct implicature
+19,019.jsonl,58.png,57.png,Some people are on skateboards,0,"[0.16044354438781738, 0.839523196220398, 3.3323736715829e-05]",direct implicature
+20,020.jsonl,60.png,60.png,Some deers are standing behind rock,1,"[0.9981124401092529, 0.0004688123008236289, 0.0014188236091285944]",contextual cancellation
+21,021.jsonl,63.png,63.png,Some donuts are in the boxes,1,"[0.9999995231628418, 7.312764438438535e-08, 3.804197774570639e-07]",contextual cancellation
+22,022.jsonl,66.png,66.png,Some glasses are for wine,1,"[0.9986622333526611, 0.0013259004335850477, 1.1929922948183957e-05]",contextual cancellation
+23,023.jsonl,69.png,69.png,Some boys are playing wii,1,"[0.9999966621398926, 5.382022436606348e-07, 2.6997124678018736e-06]",contextual cancellation
+24,024.jsonl,72.png,72.png,Some plates are with food,1,"[0.9933191537857056, 0.0013093100860714912, 0.005371524952352047]",contextual cancellation
+25,025.jsonl,75.png,75.png,Some stones are behind the birds,1,"[0.9972754120826721, 0.002139611868187785, 0.0005850784946233034]",contextual cancellation
+26,026.jsonl,78.png,78.png,Some people are wearing shirts,1,"[0.8115376234054565, 0.1524246633052826, 0.03603768348693848]",contextual cancellation
+27,027.jsonl,81.png,81.png,Some boys are on the bench,1,"[0.9999688863754272, 1.597134178155102e-05, 1.5122819604584947e-05]",contextual cancellation
+28,028.jsonl,84.png,84.png,Some noodles are on the plate,1,"[0.9998968839645386, 1.4209777873475105e-05, 8.897057705326006e-05]",contextual cancellation
+29,029.jsonl,87.png,87.png,Some boys eat donut,1,"[0.9999954700469971, 4.5458059503289405e-06, 8.25583601482549e-09]",contextual cancellation
+30,030.jsonl,90.png,90.png,Some giraffes are walking on grass,1,"[0.9999998807907104, 5.45018341568948e-09, 1.2788305525646138e-07]",contextual cancellation
+31,031.jsonl,93.png,93.png,Some broccolis are on the plates,1,"[0.9999951124191284, 9.265311291528633e-07, 3.979406756116077e-06]",contextual cancellation
+32,032.jsonl,96.png,96.png,Some jeans are on men,1,"[0.742591142654419, 0.14670997858047485, 0.11069890111684799]",contextual cancellation
+33,033.jsonl,99.png,99.png,Some airplanes are in ground,1,"[0.9999421834945679, 5.50766235392075e-05, 2.6943005195789738e-06]",contextual cancellation
+34,034.jsonl,102.png,102.png,Some ducks are in water,1,"[0.9970456957817078, 3.3168862501042895e-06, 0.002950998954474926]",contextual cancellation
+35,035.jsonl,105.png,105.png,Some gloves are on snow,1,"[0.9999873638153076, 7.933150300232228e-06, 4.619671472028131e-06]",contextual cancellation
+36,036.jsonl,108.png,108.png,Some dogs are in the water,1,"[0.9999994039535522, 2.1313976361625464e-08, 6.264826879487373e-07]",contextual cancellation
+37,037.jsonl,111.png,111.png,Some trees are behind woman,1,"[0.9895719289779663, 0.0011480586836114526, 0.009280063211917877]",contextual cancellation
+38,038.jsonl,114.png,114.png,Some windows are on the trains,1,"[0.9999808073043823, 7.666339115530718e-06, 1.1528332834132016e-05]",contextual cancellation
+39,039.jsonl,117.png,117.png,Some pigeons have wings,1,"[0.9999673366546631, 4.626432144050341e-07, 3.221842780476436e-05]",contextual cancellation
